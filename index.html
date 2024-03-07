@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcur_icon" href="assets/logo.png" type="image/x-icon">
+    <title>Shhh - Codificador e Decodificador</title>
+</head>
+
+<body>
+    
+    <main class="main_container">
+        <header class="cabecalho">
+            <img class="logoprincipal" src="/assets/logo.png" alt="logo Shhh" onclick="redirecionar()">
+        </header>
+
+    <div class="container_input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+        </div>
+
+    <div id="output">
+        <img src="/assets/lupa.png" alt="silhuete de de uma pessoa segurando uma lupa">
+        <h1>Sua mensagem aparecerá aqui!</h1>
+        <span>Digite um texto que deseja criptografar ou descriptografar</span>
+        <button class="btn_copiar" onclick="copiar()">Copiar</button>
+    </div>
+    </div>
+    
+    <div class="buttons">
+        <div class="aviso">
+            <img class="iconeAviso" src="/assets/exclamacao.svg" alt="Imagem aviso">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="container_btn">
+            <button class="btn_encriptar" onclick="criptografar()">Criptografar</button>
+            <button class="btn_desencriptar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/rhaonynogueira/" target="_blank"> <img src="/assets/linkedin.png" alt="logo do linkedin"></a>
+            <a href="https://www.instagram.com/rhaony" target="_blank"> <img src="/assets/instagram.png" alt="logo do instagram"></a>
+            <a href="https://github.com/rhaonynogueira" target="_blank"> <img src="/assets/github.png" alt="logo do github"></a>
+        </div>
+        <h2>Desenvolvido por Rhaony Nogueira - Alura ONE Turma 6 - 2024</h2>
+    </footer>
+
+    <script src="/script/script.js"></script>
+
+</body>
+</html>
